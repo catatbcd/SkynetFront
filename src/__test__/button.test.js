@@ -1,7 +1,9 @@
+/* eslint-disable import/extensions */
+/* eslint-disable no-restricted-imports */
 /* eslint-disable no-undef */
 import React from 'react';
-import ButtonLoading from 'components/ButtonLoading';
 import { render, screen } from '@testing-library/react';
+import ButtonLoading from '../components/ButtonLoading';
 
 it('renders okay', () => {
   render(<ButtonLoading text='hola' loading={false} disabled={false} />);
