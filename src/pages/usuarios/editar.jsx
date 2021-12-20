@@ -72,7 +72,6 @@ export default function EditarUsuario(props) {
     <div className='FormCon'>
       <Link to='/usuarios/'>
         <FontAwesomeIcon icon={faArrowLeft} />
-        <i className='fas fa-arrow-left text-gray-600 cursor-pointer font-bold text-xl hover:text-gray-900' />
       </Link>
       <div className='row d-flex justify-content-center'>
         <div className='col-xl-7 col-lg-8 col-md-9 col-11 text-center'>
