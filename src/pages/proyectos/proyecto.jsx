@@ -189,6 +189,7 @@ export default function Proyecto(props) {
                                       Fecha:
                                     </span>
                                   </h3>
+
                                   <p>{x.fecha}</p>
                                   <h3 className='blue'>
                                     {' '}
