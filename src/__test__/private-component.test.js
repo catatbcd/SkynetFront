@@ -2,7 +2,7 @@
 /* eslint-disable no-undef */
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { UserContext } from 'context/userContext';
+import { UserContext } from '../context/userContext';
 import PrivateComponent from '../components/PrivateComponent';
 
 it('renders the children if the user role is in the roleList', () => {

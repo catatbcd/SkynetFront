@@ -1,8 +1,9 @@
+/* eslint-disable no-restricted-imports */
 /* eslint-disable no-undef */
 import React from 'react';
-import PrivateRoute from 'components/PrivateRoute';
 import { render, screen } from '@testing-library/react';
-import { UserContext } from 'context/userContext';
+import { UserContext } from '../context/userContext';
+import PrivateRoute from '../components/PrivateRoute';
 
 it('renders not authorized if the roles dont match', () => {
   render(
